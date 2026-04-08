@@ -1,0 +1,131 @@
+Artificial Intelligence Knowledge Base (Sample for RAG Systems)
+
+1. What is Artificial Intelligence
+
+Artificial Intelligence (AI) refers to the simulation of human
+intelligence in machines that are designed to think, learn, and make
+decisions. AI systems can perform tasks that normally require human
+intelligence such as understanding language, recognizing patterns,
+solving problems, and making predictions.
+
+AI is commonly divided into several subfields including machine
+learning, natural language processing, robotics, computer vision, and
+expert systems.
+
+2. Machine Learning
+
+Machine Learning (ML) is a subset of AI that enables systems to learn
+from data without being explicitly programmed. ML algorithms improve
+their performance as they are exposed to more data.
+
+Common types of machine learning include: - Supervised learning -
+Unsupervised learning - Reinforcement learning
+
+Examples of machine learning applications include recommendation
+systems, fraud detection, spam filtering, and predictive analytics.
+
+3. Deep Learning
+
+Deep Learning is a specialized area of machine learning that uses
+artificial neural networks with multiple layers to model complex
+patterns in data.
+
+Deep learning is widely used in: - Image recognition - Speech
+recognition - Natural language processing - Autonomous vehicles
+
+Popular deep learning frameworks include TensorFlow, PyTorch, and Keras.
+
+4. Natural Language Processing
+
+Natural Language Processing (NLP) focuses on enabling machines to
+understand, interpret, and generate human language.
+
+Common NLP tasks include: - Text classification - Sentiment analysis -
+Named entity recognition - Machine translation - Question answering
+
+Large Language Models such as GPT, Llama, and Claude are widely used for
+NLP tasks.
+
+5. Large Language Models
+
+Large Language Models (LLMs) are AI models trained on massive datasets
+of text. They are designed to understand context, generate natural
+language, and perform reasoning tasks.
+
+Examples of LLMs include: - GPT models - Llama models - Gemini - Claude
+
+LLMs are commonly used for chatbots, content generation, coding
+assistance, and knowledge retrieval.
+
+6. Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) is an AI architecture that combines
+information retrieval with language generation.
+
+Instead of relying only on model training data, a RAG system retrieves
+relevant information from a knowledge base and provides it to the
+language model as context.
+
+Typical RAG workflow: 1. User asks a question 2. The system searches a
+vector database for relevant documents 3. Retrieved documents are sent
+to the LLM as context 4. The LLM generates a response using that context
+
+Benefits of RAG: - More accurate answers - Reduced hallucinations -
+Ability to use private data
+
+7. Vector Databases
+
+Vector databases store embeddings (numerical representations of text or
+data). They allow similarity search based on vector distance.
+
+Popular vector databases include: - Pinecone - Weaviate - Typesense -
+Chroma - Milvus
+
+Vector databases are essential components of modern RAG systems.
+
+8. Embeddings
+
+Embeddings convert text into numerical vectors that capture semantic
+meaning.
+
+For example, sentences with similar meaning will have similar
+embeddings. These vectors are used for similarity search in RAG systems.
+
+Popular embedding models include: - OpenAI Embeddings - Sentence
+Transformers - Cohere embeddings - Instructor embeddings
+
+9. AI Agents
+
+AI agents are systems that can reason, plan, and take actions using
+tools. Agents can interact with APIs, databases, and other systems to
+complete tasks.
+
+Frameworks used for building AI agents include: - LangChain -
+LangGraph - AutoGPT - CrewAI
+
+10. AI Observability
+
+Observability tools help monitor and debug AI applications.
+
+LangSmith is commonly used for: - tracing LLM calls - debugging
+prompts - evaluating model responses
+
+Other observability tools include: - Helicone - PromptLayer - Arize AI
+
+11. AI Application Architecture
+
+A typical modern AI application may include the following components:
+
+User Interface ↓ API Layer ↓ Agent Framework (LangChain or LangGraph) ↓
+Retriever ↓ Vector Database ↓ Large Language Model ↓ Generated Response
+
+12. Future of Artificial Intelligence
+
+AI is rapidly evolving and impacting industries such as healthcare,
+finance, education, transportation, and software development.
+
+Key trends include: - Multimodal AI models - Autonomous agents - AI
+copilots - Enterprise AI platforms
+
+Organizations are increasingly integrating AI into their workflows to
+automate tasks, enhance productivity, and gain insights from data.
