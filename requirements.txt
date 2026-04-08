@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-community
+sentence-transformers
+typesense
+langgraph
+langchain-text-splitters
+langchain-huggingface
+dotenv
